@@ -1,0 +1,44 @@
+{
+  "mustGroups": [
+    {
+      "dealStructInfo": [
+        {
+          "items": null,
+          "icon": null,
+          "title": "游泳单次票",
+          "price": "40元",
+          "copies": "1份",
+          "productUrl": null,
+          "productTag": null
+        }
+      ],
+      "desc": null
+    }
+  ],
+  "optionalGroups": null,
+  "extraInfos": null,
+  "price": "30元",
+  "marketPrice": "40元",
+  "title": "团购详情",
+  "desc": "\u003cp\u003e \u003c/p\u003e\u003cp\u003e每张票可游2小时，超半小时后需补全票。成人票、儿童票统一团购价顾客需佩戴泳帽  、着泳衣（泳裤） 自备或者门店里有售一楼游泳馆前台验票凭游泳团购验证信息 可至二楼健身馆领取一张健身体验券（每人限用一次体验） \u003c/p\u003e\u003cp\u003e \u003c/p\u003e",
+  "processType": 0,
+  "showStyle": 0,
+  "structAttrs": [
+    {
+      "attrName": "适用人群",
+      "attrValues": [
+        "不限人群"
+      ],
+      "icon": null,
+      "style": 0
+    },
+    {
+      "attrName": "套餐时长",
+      "attrValues": [
+        "150分钟/次"
+      ],
+      "icon": null,
+      "style": 0
+    }
+  ]
+}

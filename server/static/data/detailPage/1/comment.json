@@ -1,0 +1,71 @@
+{
+  "bottomTitle": "查看全部点评",
+  "topTitle": "网友点评(747)",
+  "reviewSummary": {
+    "reviewScore": 4.0,
+    "reviewRatio": "4分",
+    "totalReview": "747条评价"
+  },
+  "recordCount": 747,
+  "startIndex": 0,
+  "isEnd": false,
+  "list": [
+    {
+      "viewCount": 0,
+      "reviewCount": 0,
+      "time": "5月30日",
+      "commentCount": 0,
+      "likeCount": 0,
+      "isLike": false,
+      "detailUrl": "imeituan://www.meituan.com/feed/detail?id\u003d2232185402\u0026type\u003d1",
+      "reviewType": 101,
+      "feedType": 1,
+      "mainId": "2232185402",
+      "star": 30,
+      "content": "还行，挺好的，算是干净的游泳池，水也不错的。",
+      "pictures": [],
+      "feedUser": {
+        "profileUrl": "imeituan://www.meituan.com/userreview/?uid\u003d31471604",
+        "userTags": [
+          "https://www.dpfile.com/gp/cms/1464933889706.png"
+        ],
+        "userId": 31471604,
+        "userIdL": 31471604,
+        "avatar": "https://img.meituan.net/avatar/35f037ebe1c6d8e2bae60f503e51853a139729.jpg%40120w_120h_0e_1l%7Cwatermark%3D0",
+        "userName": "bPY571094731"
+      },
+      "actionNote": "打分"
+    },
+    {
+      "viewCount": 0,
+      "reviewCount": 0,
+      "time": "5月24日",
+      "commentCount": 0,
+      "likeCount": 0,
+      "isLike": false,
+      "detailUrl": "imeituan://www.meituan.com/feed/detail?id\u003d2214415874\u0026type\u003d1",
+      "reviewType": 101,
+      "feedType": 1,
+      "mainId": "2214415874",
+      "star": 30,
+      "content": "水有点冷，不过价格还是合适的，网上买便宜点",
+      "pictures": [],
+      "feedUser": {
+        "profileUrl": "imeituan://www.meituan.com/userreview/?uid\u003d2221074089",
+        "userTags": [
+          "https://www.dpfile.com/gp/cms/1464933852323.png"
+        ],
+        "userId": -2073893207,
+        "userIdL": 2221074089,
+        "avatar": "https://p1.meituan.net/mmc/9eb02e99626203347ba0237ac7699f924241.png%40120w_120h_0e_1l%7Cwatermark%3D0%7Cformat%3Djpeg",
+        "userName": "jLR763516071"
+      },
+      "actionNote": "打分"
+    }
+  ],
+  "nextStartIndex": 0,
+  "nextStartIndex_bk": 0,
+  "queryId": "-1",
+  "judgeSetList": true,
+  "judgeSetStart": false
+}

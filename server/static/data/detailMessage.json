@@ -1,0 +1,121 @@
+{
+  "id": 1,
+  "mtDealGroupId": 51188929,
+  "id": 51188929,
+  "channel": "fitness",
+  "slug": "51188929",
+  "dt": 6806,
+  "frontPoiCates": [],
+  "lightning": false,
+  "ctype": 0,
+  "brandName": "恒温单人游泳票",
+  "solds": 1082,
+  "soldStr": "半年消费1082",
+  "status": 0,
+  "state": 0,
+  "start": "May 19, 2018 11:33:11 AM",
+  "end": "Aug 1, 2021 11:59:59 PM",
+  "originalPrice": 40.0,
+  "price": 30.0,
+  "discount": 0.75,
+  "discountPrice": 0.0,
+  "campaignPrice": 0.0,
+  "canbuyprice": 0.0,
+  "title": "仅售30元，价值40元恒温单人游泳票，免费WiFi，免费停车位！",
+  "coupontitle": "仅售30元，价值40元恒温单人游泳票，免费WiFi，免费停车位！",
+  "deposit": 0.0,
+  "range": "",
+  "appleLottery": 0,
+  "nobooking": 1,
+  "festcanuse": 0,
+  "notice": "",
+  "dealBuyConfig": {
+    "priceStrikeThrough": false,
+    "buttonEnable": true,
+    "buttonText": "立即抢购",
+    "disablePromo": false
+  },
+  "dealBuyConfigs": [
+    {
+      "priceStrikeThrough": false,
+      "buttonEnable": true,
+      "buttonText": "立即抢购",
+      "disablePromo": false
+    }
+  ],
+  "orderTitle": "恒温单人游泳票",
+  "isappointonline": false,
+  "secondKillPromo": false,
+  "ratingModel": {
+    "rating": 4.0,
+    "satisfaction": 80.0,
+    "rateCount": 745,
+    "subCount": 0
+  },
+  "availableToday": false,
+  "structedDetails": [
+    {
+      "id": "套餐",
+      "iD": "套餐",
+      "name": "\u003cdiv\u003e\n        \u003cdiv class\u003d\"detail-tit\"\u003e\u003c/div\u003e\n        \u003cdiv\u003e\n            \u003ctable width\u003d\"100%\" cellpadding\u003d\"0\" cellspacing\u003d\"0\" class\u003d\"detail-table\"\u003e\n                \u003cthead\u003e\n                \u003ctr\u003e\n                    \u003cth width\u003d\"50%\"\u003e名称\u003c/th\u003e\n                    \u003cth width\u003d\"25%\"\u003e数量\u003c/th\u003e\n                    \u003cth width\u003d\"25%\"\u003e单价\u003c/th\u003e\n                \u003c/tr\u003e\n                \u003c/thead\u003e\n                \u003ctbody\u003e\n                            \u003ctr\u003e\n                                \u003ctd\u003e游泳单次票\u003c/td\u003e\n                                \u003ctd class\u003d\"tc\"\u003e1\u003c/td\u003e\n                                \u003ctd class\u003d\"tc\"\u003e40元\u003c/td\u003e\n                            \u003c/tr\u003e\n                    \u003ctr class\u003d\"total\"\u003e\n                        \u003ctd\u003e\u003c/td\u003e\n                        \u003ctd class\u003d\"tc\"\u003e总价\u003cbr\u003e\u003cstrong\u003e团购价\u003c/strong\u003e\u003c/td\u003e\n                        \u003ctd class\u003d\"tc\"\u003e40元\u003cbr\u003e\u003cstrong\u003e30元\u003c/strong\u003e\n                        \u003c/td\u003e\n                    \u003c/tr\u003e\n                \u003c/tbody\u003e\n            \u003c/table\u003e\n        \u003c/div\u003e\n\u003cdiv\u003e\u003cp\u003e \u003c/p\u003e\u003cp\u003e每张票可游2小时，超半小时后需补全票。成人票、儿童票统一团购价顾客需佩戴泳帽  、着泳衣（泳裤） 自备或者门店里有售一楼游泳馆前台验票凭游泳团购验证信息 可至二楼健身馆领取一张健身体验券（每人限用一次体验） \u003c/p\u003e\u003cp\u003e \u003c/p\u003e\u003c/div\u003e\n\n\n\u003c/div\u003e",
+      "type": 1,
+      "isUsed": false
+    },
+    {
+      "id": "购买须知",
+      "iD": "购买须知",
+      "name": "\u003cdiv\u003e\n\u003cdiv class\u003d\"detail-box\"\u003e\n    \u003cdiv class\u003d\"purchase-notes\"\u003e\n\t\t        \u003cdl\u003e\n            \u003cdt\u003e有效期\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e\n            购买后90天内有效\n        \u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e使用时间\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e07:30-20:30\n\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e预约信息\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e无需预约，如遇消费高峰时段您可能需要排队\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e适用人数\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e每张团购券最多1人使用\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e规则提醒\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e不再与其他优惠同享\n\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e商家服务\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e提供免费WiFi\u003c/p\u003e\n                \u003cp class\u003d\"listitem\"\u003e提供免费停车位\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e温馨提示\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e如需团购券发票，请您在消费时向商户咨询\u003c/p\u003e\n                \u003cp class\u003d\"listitem\"\u003e为了保障您的权益，建议使用美团、点评网线上支付。若使用其他支付方式导致纠纷，美团、点评网不承担任何责任，感谢您的理解和支持！\u003c/p\u003e\n                \u003cp class\u003d\"listitem\"\u003e平台温馨提醒：您在到店使用本商品/服务期间，请关注商家的安全提示内容，了解相关注意事项，做好安全防护措施，保护您的安全。\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n\n\u003c/div\u003e",
+      "type": 2,
+      "isUsed": false
+    },
+    {
+      "id": "更多详情",
+      "iD": "更多详情",
+      "name": "\u003cdiv\u003e\n\u003cdiv class\u003d\"detail-box\"\u003e\u003ch3 class\u003d\"tit\"\u003e产品介绍\u003c/h3\u003e\u003cp class\u003d\"listitem\"\u003e\u003c/p\u003e\n\u003cp class\u003d\"explain\"\u003e\u003c/p\u003e\n\u003cdiv class\u003d\"img\"\u003e\u003cimg src\u003d\"https:\" /\u003e\u003c/div\u003e\n\n\u003c/div\u003e\n\u003cdiv class\u003d\"detail-box\"\u003e\u003ch3 class\u003d\"tit\"\u003e购买须知\u003c/h3\u003e\n        \u003cdiv class\u003d\"detail-tit\"\u003e\u003c/div\u003e\n        \u003cdiv\u003e\n            \u003ctable width\u003d\"100%\" cellpadding\u003d\"0\" cellspacing\u003d\"0\" class\u003d\"detail-table\"\u003e\n                \u003cthead\u003e\n                \u003ctr\u003e\n                    \u003cth width\u003d\"50%\"\u003e名称\u003c/th\u003e\n                    \u003cth width\u003d\"25%\"\u003e数量\u003c/th\u003e\n                    \u003cth width\u003d\"25%\"\u003e单价\u003c/th\u003e\n                \u003c/tr\u003e\n                \u003c/thead\u003e\n                \u003ctbody\u003e\n                            \u003ctr\u003e\n                                \u003ctd\u003e游泳单次票\u003c/td\u003e\n                                \u003ctd class\u003d\"tc\"\u003e1\u003c/td\u003e\n                                \u003ctd class\u003d\"tc\"\u003e40元\u003c/td\u003e\n                            \u003c/tr\u003e\n                    \u003ctr class\u003d\"total\"\u003e\n                        \u003ctd\u003e\u003c/td\u003e\n                        \u003ctd class\u003d\"tc\"\u003e总价\u003cbr\u003e\u003cstrong\u003e团购价\u003c/strong\u003e\u003c/td\u003e\n                        \u003ctd class\u003d\"tc\"\u003e40元\u003cbr\u003e\u003cstrong\u003e30元\u003c/strong\u003e\n                        \u003c/td\u003e\n                    \u003c/tr\u003e\n                \u003c/tbody\u003e\n            \u003c/table\u003e\n        \u003c/div\u003e\n\u003cdiv\u003e\u003cp\u003e \u003c/p\u003e\u003cp\u003e每张票可游2小时，超半小时后需补全票。成人票、儿童票统一团购价顾客需佩戴泳帽  、着泳衣（泳裤） 自备或者门店里有售一楼游泳馆前台验票凭游泳团购验证信息 可至二楼健身馆领取一张健身体验券（每人限用一次体验） \u003c/p\u003e\u003cp\u003e \u003c/p\u003e\u003c/div\u003e\n\n\n\u003cdiv class\u003d\"detail-box\"\u003e\n    \u003cdiv class\u003d\"purchase-notes\"\u003e\n\t\t        \u003cdl\u003e\n            \u003cdt\u003e有效期\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e\n            购买后90天内有效\n        \u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e使用时间\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e07:30-20:30\n\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e预约信息\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e无需预约，如遇消费高峰时段您可能需要排队\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e适用人数\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e每张团购券最多1人使用\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e规则提醒\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e不再与其他优惠同享\n\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e商家服务\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e提供免费WiFi\u003c/p\u003e\n                \u003cp class\u003d\"listitem\"\u003e提供免费停车位\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e温馨提示\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e如需团购券发票，请您在消费时向商户咨询\u003c/p\u003e\n                \u003cp class\u003d\"listitem\"\u003e为了保障您的权益，建议使用美团、点评网线上支付。若使用其他支付方式导致纠纷，美团、点评网不承担任何责任，感谢您的理解和支持！\u003c/p\u003e\n                \u003cp class\u003d\"listitem\"\u003e平台温馨提醒：您在到店使用本商品/服务期间，请关注商家的安全提示内容，了解相关注意事项，做好安全防护措施，保护您的安全。\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n\n\u003c/div\u003e\n\u003c/div\u003e",
+      "type": 1000,
+      "isUsed": false
+    }
+  ],
+  "refund": 3,
+  "expireAutoRefund": 1,
+  "maxLimitPerUser": 9999,
+  "minLimitPerUser": 1,
+  "isLimitPerUser": false,
+  "shop": {
+    "poiid": 168882008,
+    "iD": 168882008,
+    "name": "国际教育园凯恩斯游泳健身馆",
+    "phone": "0512-69381888",
+    "addr": "苏州吴中大道越湖路1158号国际教育园体育中心",
+    "showType": "fitness",
+    "lat": 31.22505810089406,
+    "lng": 120.58992807674109,
+    "avgscore": 3.6,
+    "onlineConsultUrl": "https://g.meituan.com/app/babyfe-app-baby-im/index.html?toUid\u003dsl55X9yV8ooRbQQDp\u0026clientType\u003d200200\u0026chatType\u003d0\u0026bizId\u003d31446594\u0026sendUnitType\u003d6",
+    "dpShopId": 101922581,
+    "cityId": 6
+  },
+  "redeemType": 0,
+  "bigImgUrl": "https://p0.meituan.net/dpdeal/c669204ea01cbdcb75f0610465fd81271282665.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D0",
+  "imgUrls": [
+    "https://p0.meituan.net/dpdeal/c669204ea01cbdcb75f0610465fd8127_1_b8eb8f1aa8e3ef7a_1_XAk9w0Nx2HEW3mF0C0kfK0paGmDLSQiD9KgsRaCi1kMG9%2BwDUnQFlxUH8xxy8gQwxh8qJBkSm%2FI%2BAIOpH7ZyBBhdaaZ7FL34F%2BuCpNq3FBGRSAabPmj9RJLiG4fesjnHY11L7bkkIXTTn3uJbEVsqg%3D%3D"
+  ],
+  "imgUrl": "https://p0.meituan.net/dpdeal/c669204ea01cbdcb75f0610465fd81271282665.jpg%40180w_132h_1e_1c_1l%7Cwatermark%3D0",
+  "shopCount": 1,
+  "shopListUrl": "imeituan://www.meituan.com/gc/branchlist?dealid\u003d51188929\u0026frompage\u003d1",
+  "dpDealGroupId": 31446594,
+  "iOrderURL": "https://g.meituan.com/app/gfe-app-page-tuan/create-order.html?dealId\u003d51188929",
+  "ici": 80,
+  "iUserId": 3114299749,
+  "dpSolds": 0,
+  "lat": 0.0,
+  "lng": 0.0,
+  "dpCategoryIds": [
+    170,
+    17002
+  ],
+  "buCode": 3,
+  "buName": "joy",
+  "publishCategoryId": 1806,
+  "tort": false
+}

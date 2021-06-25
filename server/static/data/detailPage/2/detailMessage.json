@@ -1,0 +1,95 @@
+{
+  "code": 0,
+  "status": 0,
+  "data": {
+    "dealId": 39356375,
+    "biz": "gty",
+    "sold": 3455,
+    "title": "西湖风景名胜区（西湖）、苏州园林旅游、寒山寺等无自费2日跟团游*门票全包 市区免费接",
+    "price": 19800,
+    "value": 38800,
+    "online": true,
+    "headImg": "http://p1.meituan.net/auditimage/4fb806f14837765f34897b6aa403e136157485.jpg",
+    "inBookmark": false,
+    "dealTags": [],
+    "imgTitle": "跟团游 上海",
+    "imageTitle": {
+      "typeName": "跟团游",
+      "departName": "上海"
+    },
+    "imgUrls": [
+      "https://p1.meituan.net/w.h/auditimage/4fb806f14837765f34897b6aa403e136157485.jpg",
+      "https://p1.meituan.net/w.h/auditimage/4fb806f14837765f34897b6aa403e136157485.jpg",
+      "https://p0.meituan.net/w.h/auditimage/6dd800eae203a7760e4ba75ac1c7c930357214.jpg",
+      "https://p1.meituan.net/w.h/auditimage/24e0ecee4bf6562822b409ec60fe6a9a100154.jpg",
+      "https://p1.meituan.net/w.h/auditimage/f0cf0cc07ca6be4fa3f3b7dd2e6d3eda708026.jpg",
+      "https://p1.meituan.net/w.h/auditimage/0775dea066eb084b1252003400964cfa425434.jpg",
+      "https://p0.meituan.net/w.h/auditimage/b62f9097fd7f9c66abd4de3bf7b0a9df218880.jpg"
+    ],
+    "status": 0,
+    "soldDesc": "已售3455件",
+    "tags": [
+      {
+        "title": "100%出团",
+        "textColor": "#007bdc",
+        "borderColor": "#2a99f1",
+        "bgColor": "#ffffff"
+      },
+      {
+        "title": "无自费",
+        "textColor": "#007bdc",
+        "borderColor": "#2a99f1",
+        "bgColor": "#ffffff"
+      }
+    ],
+    "recommendReasons": {
+      "title": "商家说亮点",
+      "contentList": [
+        "杭州西湖三潭印月、花港观鱼、曲院风荷，畅游西湖，天天发班",
+        "苏州园林、西湖风景名胜区、姑苏水上游"
+      ]
+    },
+    "isInBookmark": false,
+    "cscUrl": "",
+    "lineType": 1,
+    "priceDesc": [
+      {
+        "title": "划线价",
+        "contentList": [
+          "产品/服务展示的划横线价格为参考价，该价格指产品/服务的门市价、服务提供商的指导价、零售价、市场价或该产品/服务在美团平台上曾经展示过的销售价等，并非原价；由于地区、时间的差异性和市场行情的波动，该价格可能会与您预订时展示的不一致，该价格仅供您参考。"
+        ]
+      },
+      {
+        "title": "起价说明",
+        "contentList": [
+          "本起价是在最近24小时内，按照双人出行共用一间房间+包含的项目测算的单人价格。",
+          "产品价格会根据您选择的出发日期、出行人数及套餐内容的不同而有所差别。此价格不包含附加服务费用。"
+        ]
+      }
+    ],
+    "campaigns": [],
+    "guaranteeDesc": [],
+    "tabModule": [
+      {
+        "moduleType": "schedule",
+        "moduleName": "2日行程"
+      },
+      {
+        "moduleType": "graphicDetail",
+        "moduleName": "图文详情"
+      },
+      {
+        "moduleType": "reviewAndQA",
+        "moduleName": "评价问答"
+      },
+      {
+        "moduleType": "bookNotice",
+        "moduleName": "费用须知"
+      }
+    ],
+    "saleType": 2,
+    "plan": false,
+    "safetyFlag": false
+  },
+  "message": "success"
+}

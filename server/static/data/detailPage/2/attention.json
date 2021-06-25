@@ -1,0 +1,119 @@
+{
+  "mtDealGroupId": 34589658,
+  "id": 34589658,
+  "channel": "entertainment",
+  "slug": "34589658",
+  "dt": 5303,
+  "frontPoiCates": [],
+  "lightning": false,
+  "ctype": 0,
+  "brandName": "御足世家单人套餐/淋浴/足底",
+  "solds": 1986,
+  "soldStr": "半年消费1986",
+  "status": 0,
+  "state": 0,
+  "start": "Aug 14, 2014 12:00:00 AM",
+  "end": "Jun 30, 2021 11:59:59 PM",
+  "originalPrice": 199.0,
+  "price": 169.0,
+  "discount": 0.85,
+  "discountPrice": 0.0,
+  "campaignPrice": 0.0,
+  "canbuyprice": 0.0,
+  "title": "仅售169元，价值199元御足世家单人套餐/淋浴/足底，免费WiFi，男女通用！",
+  "coupontitle": "仅售169元，价值199元御足世家单人套餐/淋浴/足底，免费WiFi，男女通用！",
+  "deposit": 0.0,
+  "range": "",
+  "appleLottery": 0,
+  "nobooking": 1,
+  "festcanuse": 0,
+  "notice": "",
+  "dealBuyConfig": {
+    "priceStrikeThrough": false,
+    "buttonEnable": true,
+    "buttonText": "立即抢购",
+    "disablePromo": false
+  },
+  "dealBuyConfigs": [
+    {
+      "priceStrikeThrough": false,
+      "buttonEnable": true,
+      "buttonText": "立即抢购",
+      "disablePromo": false
+    }
+  ],
+  "orderTitle": "御足世家单人套餐/淋浴/足底",
+  "isappointonline": false,
+  "secondKillPromo": false,
+  "ratingModel": {
+    "rating": 4.5,
+    "satisfaction": 90.0,
+    "rateCount": 3673,
+    "subCount": 0
+  },
+  "availableToday": false,
+  "structedDetails": [
+    {
+      "id": "套餐",
+      "iD": "套餐",
+      "name": "\u003cdiv\u003e\n        \u003cdiv class\u003d\"detail-tit\"\u003e\u003c/div\u003e\n        \u003cdiv\u003e\n            \u003ctable width\u003d\"100%\" cellpadding\u003d\"0\" cellspacing\u003d\"0\" class\u003d\"detail-table\"\u003e\n                \u003cthead\u003e\n                \u003ctr\u003e\n                    \u003cth width\u003d\"50%\"\u003e名称\u003c/th\u003e\n                    \u003cth width\u003d\"25%\"\u003e数量\u003c/th\u003e\n                    \u003cth width\u003d\"25%\"\u003e单价\u003c/th\u003e\n                \u003c/tr\u003e\n                \u003c/thead\u003e\n                \u003ctbody\u003e\n                            \u003ctr\u003e\n                                \u003ctd\u003e中式足底足浴80分钟\u003c/td\u003e\n                                \u003ctd class\u003d\"tc\"\u003e1\u003c/td\u003e\n                                \u003ctd class\u003d\"tc\"\u003e199元\u003c/td\u003e\n                            \u003c/tr\u003e\n                    \u003ctr class\u003d\"total\"\u003e\n                        \u003ctd\u003e\u003c/td\u003e\n                        \u003ctd class\u003d\"tc\"\u003e总价\u003cbr\u003e\u003cstrong\u003e团购价\u003c/strong\u003e\u003c/td\u003e\n                        \u003ctd class\u003d\"tc\"\u003e199元\u003cbr\u003e\u003cstrong\u003e169元\u003c/strong\u003e\n                        \u003c/td\u003e\n                    \u003c/tr\u003e\n                \u003c/tbody\u003e\n            \u003c/table\u003e\n        \u003c/div\u003e\n\u003cdiv\u003e\u003cp\u003e服务时长：浴足世家总共服务时间为80分钟，包含浴足50分钟+全身按摩30分钟\u003c/p\u003e\u003cp\u003e2、免费茶水——大麦茶、绿茶、铁观音、碧螺春、菊花茶、柠檬茶、咖啡、奶茶、可乐、红茶；\u003c/p\u003e\u003cp\u003e3、免费点心——汤圆、水饺、混沌、雪菜肉丝面等；\u003c/p\u003e\u003cp\u003e4、免费小吃——瓜子、花生等；\u003c/p\u003e\u003cp\u003e5、免费水果——根据季节性提供指定水果。\u003c/p\u003e\u003c/div\u003e\n\n\n\u003c/div\u003e",
+      "type": 1,
+      "isUsed": false
+    },
+    {
+      "id": "购买须知",
+      "iD": "购买须知",
+      "name": "\u003cdiv\u003e\n\u003cdiv class\u003d\"detail-box\"\u003e\n    \u003cdiv class\u003d\"purchase-notes\"\u003e\n\t\t        \u003cdl\u003e\n            \u003cdt\u003e有效期\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e\n            购买后30天内有效\n        \u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e预约信息\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e无需预约，如遇消费高峰时段您可能需要排队\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e适用人群\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e男女通用\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e规则提醒\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e不再与其他优惠同享\n\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e商家服务\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e提供免费WiFi\u003c/p\u003e\n                \u003cp class\u003d\"listitem\"\u003e免费提供：淋浴、小吃、停车场免费须前台领券\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e温馨提示\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e如需团购券发票，请您在消费时向商户咨询\u003c/p\u003e\n                \u003cp class\u003d\"listitem\"\u003e为了保障您的权益，建议使用美团、点评网线上支付。若使用其他支付方式导致纠纷，美团、点评网不承担任何责任，感谢您的理解和支持！\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n\n\u003c/div\u003e",
+      "type": 2,
+      "isUsed": false
+    },
+    {
+      "id": "更多详情",
+      "iD": "更多详情",
+      "name": "\u003cdiv\u003e\n\u003cdiv class\u003d\"detail-box\"\u003e\u003ch3 class\u003d\"tit\"\u003e产品介绍\u003c/h3\u003e\u003cdiv\u003e\u003cp\u003e唐宫足浴，位于木渎中心商业区天虹百货旁，是目前苏州规模较大的足浴店，拥有较多资质过硬的技师和先进的足浴设备，环境优雅，交通便利，是个休闲娱乐的好去处。 唐宫足浴足疗按摩专注于足疗，精心缔造品牌。满足了顾客对洽谈、休闲娱乐、小憩等多种需求。\u003c/p\u003e\u003c/div\u003e\n\n\u003c/div\u003e\n\u003cdiv class\u003d\"detail-box\"\u003e\u003ch3 class\u003d\"tit\"\u003e购买须知\u003c/h3\u003e\n        \u003cdiv class\u003d\"detail-tit\"\u003e\u003c/div\u003e\n        \u003cdiv\u003e\n            \u003ctable width\u003d\"100%\" cellpadding\u003d\"0\" cellspacing\u003d\"0\" class\u003d\"detail-table\"\u003e\n                \u003cthead\u003e\n                \u003ctr\u003e\n                    \u003cth width\u003d\"50%\"\u003e名称\u003c/th\u003e\n                    \u003cth width\u003d\"25%\"\u003e数量\u003c/th\u003e\n                    \u003cth width\u003d\"25%\"\u003e单价\u003c/th\u003e\n                \u003c/tr\u003e\n                \u003c/thead\u003e\n                \u003ctbody\u003e\n                            \u003ctr\u003e\n                                \u003ctd\u003e中式足底足浴80分钟\u003c/td\u003e\n                                \u003ctd class\u003d\"tc\"\u003e1\u003c/td\u003e\n                                \u003ctd class\u003d\"tc\"\u003e199元\u003c/td\u003e\n                            \u003c/tr\u003e\n                    \u003ctr class\u003d\"total\"\u003e\n                        \u003ctd\u003e\u003c/td\u003e\n                        \u003ctd class\u003d\"tc\"\u003e总价\u003cbr\u003e\u003cstrong\u003e团购价\u003c/strong\u003e\u003c/td\u003e\n                        \u003ctd class\u003d\"tc\"\u003e199元\u003cbr\u003e\u003cstrong\u003e169元\u003c/strong\u003e\n                        \u003c/td\u003e\n                    \u003c/tr\u003e\n                \u003c/tbody\u003e\n            \u003c/table\u003e\n        \u003c/div\u003e\n\u003cdiv\u003e\u003cp\u003e服务时长：浴足世家总共服务时间为80分钟，包含浴足50分钟+全身按摩30分钟\u003c/p\u003e\u003cp\u003e2、免费茶水——大麦茶、绿茶、铁观音、碧螺春、菊花茶、柠檬茶、咖啡、奶茶、可乐、红茶；\u003c/p\u003e\u003cp\u003e3、免费点心——汤圆、水饺、混沌、雪菜肉丝面等；\u003c/p\u003e\u003cp\u003e4、免费小吃——瓜子、花生等；\u003c/p\u003e\u003cp\u003e5、免费水果——根据季节性提供指定水果。\u003c/p\u003e\u003c/div\u003e\n\n\n\u003cdiv class\u003d\"detail-box\"\u003e\n    \u003cdiv class\u003d\"purchase-notes\"\u003e\n\t\t        \u003cdl\u003e\n            \u003cdt\u003e有效期\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e\n            购买后30天内有效\n        \u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e预约信息\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e无需预约，如遇消费高峰时段您可能需要排队\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e适用人群\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e男女通用\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e规则提醒\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e不再与其他优惠同享\n\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e商家服务\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e提供免费WiFi\u003c/p\u003e\n                \u003cp class\u003d\"listitem\"\u003e免费提供：淋浴、小吃、停车场免费须前台领券\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n        \u003cdl\u003e\n            \u003cdt\u003e温馨提示\u003c/dt\u003e\n            \u003cdd\u003e\n                \u003cp class\u003d\"listitem\"\u003e如需团购券发票，请您在消费时向商户咨询\u003c/p\u003e\n                \u003cp class\u003d\"listitem\"\u003e为了保障您的权益，建议使用美团、点评网线上支付。若使用其他支付方式导致纠纷，美团、点评网不承担任何责任，感谢您的理解和支持！\u003c/p\u003e\n            \u003c/dd\u003e\n        \u003c/dl\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n\n\u003c/div\u003e\n\u003c/div\u003e",
+      "type": 1000,
+      "isUsed": false
+    }
+  ],
+  "refund": 3,
+  "expireAutoRefund": 1,
+  "maxLimitPerUser": 9999,
+  "minLimitPerUser": 1,
+  "isLimitPerUser": false,
+  "shop": {
+    "poiid": 5096453,
+    "iD": 5096453,
+    "name": "唐宫足浴(木渎店)",
+    "phone": "0512-66310777/0512-66310566",
+    "addr": "金山南路47-2号新华广场3楼（天虹商场旁边）",
+    "showType": "entertainment",
+    "lat": 31.265378075062532,
+    "lng": 120.51433473562635,
+    "avgscore": 4.5,
+    "dpShopId": 18675192,
+    "cityId": 6
+  },
+  "redeemType": 0,
+  "bigImgUrl": "https://p1.meituan.net/dpdeal/27dac019694855bac6d2e74c13bfec0d536797.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D0",
+  "imgUrls": [
+    "https://p1.meituan.net/dpdeal/27dac019694855bac6d2e74c13bfec0d_1_b8eb8f1aa8e3ef7a_1_II1IhmMapy8u2avwZivnLZTN2K72INMlYhMJDVvLujs%2BOeXWO3TpSr%2FzrL40jFkiDHBP7r%2F3jOChiTZDYJOBuVggfyEhmnaig9IGduZMwO9qOcNcYTaYs3WetUn5JcQ7VZ2%2Fkf%2FFwDtx8tD9Nj4TaQ%3D%3D"
+  ],
+  "imgUrl": "https://p1.meituan.net/dpdeal/27dac019694855bac6d2e74c13bfec0d536797.jpg%40180w_132h_1e_1c_1l%7Cwatermark%3D0",
+  "shopCount": 1,
+  "shopListUrl": "imeituan://www.meituan.com/gc/branchlist?dealid\u003d34589658\u0026frompage\u003d1",
+  "dpDealGroupId": 6443920,
+  "iOrderURL": "https://g.meituan.com/app/gfe-app-page-tuan/create-order.html?dealId\u003d34589658",
+  "ici": 80,
+  "iUserId": 3114299749,
+  "dpSolds": 0,
+  "lat": 0.0,
+  "lng": 0.0,
+  "dpCategoryIds": [
+    30,
+    3006
+  ],
+  "buCode": 3,
+  "buName": "joy",
+  "publishCategoryId": 303,
+  "tort": false
+}

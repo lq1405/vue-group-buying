@@ -1,0 +1,116 @@
+{
+  "bottomTitle": "查看全部点评",
+  "topTitle": "网友点评(3675)",
+  "reviewSummary": {
+    "reviewScore": 4.5,
+    "reviewRatio": "4.5分",
+    "totalReview": "3675条评价"
+  },
+  "recordCount": 3675,
+  "startIndex": 0,
+  "isEnd": false,
+  "list": [
+    {
+      "viewCount": 0,
+      "reviewCount": 0,
+      "time": "5月12日",
+      "commentCount": 0,
+      "likeCount": 0,
+      "isLike": false,
+      "detailUrl": "imeituan://www.meituan.com/feed/detail?id\u003d2183585696\u0026type\u003d1",
+      "reviewType": 101,
+      "feedType": 1,
+      "mainId": "2183585696",
+      "star": 50,
+      "content": "服务态度很好手法不错",
+      "pictures": [
+        {
+          "type": 1,
+          "uploadTime": "5月12日",
+          "title": "",
+          "bigUrl": "https://p1.meituan.net/shaitu/1066e49180ea713f86423a5292eeac383721696.jpg%40700w_700h_0e_1l%7Cwatermark%3D0",
+          "smallUrl": "https://p1.meituan.net/shaitu/1066e49180ea713f86423a5292eeac383721696.jpg%40249w_249h_0e_1l%7Cwatermark%3D0"
+        },
+        {
+          "type": 1,
+          "uploadTime": "5月12日",
+          "title": "",
+          "bigUrl": "https://p0.meituan.net/shaitu/3aabba7f5f0d0bd362e217e0c8393b593693399.jpg%40700w_700h_0e_1l%7Cwatermark%3D0",
+          "smallUrl": "https://p0.meituan.net/shaitu/3aabba7f5f0d0bd362e217e0c8393b593693399.jpg%40249w_249h_0e_1l%7Cwatermark%3D0"
+        },
+        {
+          "type": 1,
+          "uploadTime": "5月12日",
+          "title": "",
+          "bigUrl": "https://p0.meituan.net/shaitu/0af61dc8aa51041f2add3dad43e9367d3553350.jpg%40700w_700h_0e_1l%7Cwatermark%3D0",
+          "smallUrl": "https://p0.meituan.net/shaitu/0af61dc8aa51041f2add3dad43e9367d3553350.jpg%40249w_249h_0e_1l%7Cwatermark%3D0"
+        }
+      ],
+      "feedUser": {
+        "profileUrl": "imeituan://www.meituan.com/userreview/?uid\u003d2835157083",
+        "userTags": [
+          "https://www.dpfile.com/gp/cms/1464933852323.png"
+        ],
+        "userId": -1459810213,
+        "userIdL": 2835157083,
+        "avatar": "https://p1.meituan.net/mmc/e663563d638f3f2c56274e28ac949a143761.png%40120w_120h_0e_1l%7Cwatermark%3D0%7Cformat%3Djpeg",
+        "userName": "iMx760147955"
+      },
+      "actionNote": "打分"
+    },
+    {
+      "viewCount": 0,
+      "reviewCount": 0,
+      "time": "3月17日",
+      "commentCount": 0,
+      "likeCount": 0,
+      "isLike": false,
+      "detailUrl": "imeituan://www.meituan.com/feed/detail?id\u003d2042075292\u0026type\u003d1",
+      "reviewType": 101,
+      "feedType": 1,
+      "mainId": "2042075292",
+      "honour": "https://www.dpfile.com/ugc/reviewhonour/highQualityReview.png",
+      "star": 50,
+      "content": "地址位于木渎镇金山南路，万悦酒店三楼，停车方便而且还有免费的停车券可拿，环境，装修虽然时间长，设施陈旧了些，但是环境卫生，还都挺好的，前台服务也是蛮热情的，只不过需要等房间，人比较多，技师手法按的很舒服，原本来的时候很累，因为刚去过灵岩山，然后就想着做个按摩看看能不能缓解一下，没想到按的这么舒服，小吃，说实话挺实惠的，吃的饱饱的，总的来说，挺满意的。",
+      "pictures": [
+        {
+          "type": 1,
+          "uploadTime": "3月17日",
+          "title": "",
+          "bigUrl": "https://p1.meituan.net/shaitu/bcc8b1217d179123e9f6aed302e6c0b9236386.jpg%40700w_700h_0e_1l%7Cwatermark%3D0",
+          "smallUrl": "https://p1.meituan.net/shaitu/bcc8b1217d179123e9f6aed302e6c0b9236386.jpg%40249w_249h_0e_1l%7Cwatermark%3D0"
+        },
+        {
+          "type": 1,
+          "uploadTime": "3月17日",
+          "title": "",
+          "bigUrl": "https://p0.meituan.net/shaitu/35bcc6ab5bf9f9b19e8cf9eb27aae6dc150072.jpg%40700w_700h_0e_1l%7Cwatermark%3D0",
+          "smallUrl": "https://p0.meituan.net/shaitu/35bcc6ab5bf9f9b19e8cf9eb27aae6dc150072.jpg%40249w_249h_0e_1l%7Cwatermark%3D0"
+        },
+        {
+          "type": 1,
+          "uploadTime": "3月17日",
+          "title": "",
+          "bigUrl": "https://p0.meituan.net/shaitu/4bd60a3b0a32e038f542533fff557b47136545.jpg%40700w_700h_0e_1l%7Cwatermark%3D0",
+          "smallUrl": "https://p0.meituan.net/shaitu/4bd60a3b0a32e038f542533fff557b47136545.jpg%40249w_249h_0e_1l%7Cwatermark%3D0"
+        }
+      ],
+      "feedUser": {
+        "profileUrl": "imeituan://www.meituan.com/userreview/?uid\u003d273291358",
+        "userTags": [
+          "https://www.dpfile.com/gp/cms/1464933877821.png"
+        ],
+        "userId": 273291358,
+        "userIdL": 273291358,
+        "avatar": "https://img.meituan.net/avatar/b9d11534365812951e2afba46631fed293137.jpg%40120w_120h_0e_1l%7Cwatermark%3D0",
+        "userName": "Zhang4789"
+      },
+      "actionNote": "打分"
+    }
+  ],
+  "nextStartIndex": 0,
+  "nextStartIndex_bk": 0,
+  "queryId": "-1",
+  "judgeSetList": true,
+  "judgeSetStart": false
+}
