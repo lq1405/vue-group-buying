@@ -2,9 +2,9 @@
     <div class="lovely-food">
         <ul class="food-list">
             <li v-for="item in list" :key="item.id">
-                <router-link :to='"/detail/" + item.id' tag="a">
+                <router-link :to="'/detail/' + item.id" tag="a">
                     <div class="food-list-img">
-                        <img :src="'/home/img/lovelyFile/00.jpg'" alt="">
+                        <img src="/home/img/lovelyFile/00.jpg" alt />
                     </div>
                     <div class="food-list-describe">
                         <p class="food-name" v-if="msg.name">{{ item[msg.name] }}</p>
@@ -23,12 +23,10 @@
 
 <script>
 export default {
-    props: ['list', 'msg','noShow']
-}
-
+    props: ["list", "msg", "noShow"],
+};
 </script>
 <style scoped lang="scss">
-
 * {
     list-style: none;
     margin: 0;
@@ -40,8 +38,7 @@ export default {
         width: 340px;
         height: 1px;
     }
-
-    li, {
+    li {
         padding: {
             top: 10px;
             bottom: 10px;
@@ -73,7 +70,7 @@ export default {
                 flex: 3;
 
                 p {
-                    white-space: nowrap
+                    white-space: nowrap;
                 }
 
                 .food-name {
@@ -90,7 +87,7 @@ export default {
                     font-size: 12px;
                 }
 
-                .sold-food{
+                .sold-food {
                     position: absolute;
                     right: 10px;
                     bottom: 2px;
@@ -101,11 +98,8 @@ export default {
                     color: #ff0000;
                     font-size: 18px;
                 }
-
             }
         }
-
     }
 }
-
 </style>

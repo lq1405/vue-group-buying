@@ -29,8 +29,7 @@ export default {
         }
     },
     name: "shoppingCart",
-    methods: {
-    }
+    methods: {}
 }
 </script>
 
@@ -41,15 +40,17 @@ export default {
 }
 
 .shopping-cart {
-    margin-top: 10px;
     background-color: #333;
     display: flex;
     height: 50px;
     text-align: center;
     color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 96%;
 
     .total-price {
-        colorr: #fff;
+        color: #fff;
         font-size: 18px;
 
         .discount-price {
@@ -86,7 +87,7 @@ export default {
         .product-num {
             position: relative;
             top: -45px;
-            left: 35px;
+            left: 55%;
             line-height: 15px;
             font-size: 12px;
             width: 15px;

@@ -7,7 +7,7 @@ let root = process.cwd();
 app.engine('.html', ejs.__express);
 app.use('/static/', express.static(path.join(root, '/static/')));
 app.use('/favicon.io', express.static(path.join(root, '/data/home/favicon.io')));
-app.use('/home', express.static(path.join(root, '/static/home')))
+app.use('/home', express.static(path.join(root, '/static/home/home')))
 
 
 app.use('/data/', (req, res, next) => {

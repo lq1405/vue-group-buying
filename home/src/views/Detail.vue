@@ -1,36 +1,51 @@
 <template>
     <div class="detail-page">
         <div class="img-price-detail">
-            <img :src="src" alt="">
+            <img :src="src" alt/>
             <p class="detail-brandName">{{ data.brandName }}</p>
             <div class="detail-price-buy">
-                <h1><span>￥</span>{{ data.price }}</h1>
+                <h1>
+                    <span>￥</span>
+                    {{ data.price }}
+                </h1>
                 <p class="detail-originalPrice">门市价￥{{ data.originalPrice }}</p>
-                <span :class="{
+                <span
+                    :class="{
                     'buy-button' :true,
                     'choose-buy': hasBuy
                     }"
-                      @click="switchPurchaseStatus">{{ hasBuy ? '取消抢购' : '立即抢购' }}</span>
+                    @click="switchPurchaseStatus"
+                >{{ hasBuy ? '取消抢购' : '立即抢购' }}</span>
             </div>
             <div class="detail-support-sold">
                 <span>支持随时退货</span>
                 <span>支持过期自动退</span>
-                <span><i class="fa fa-user-circle" aria-hidden="true"></i> {{ data.soldStr }}</span>
+                <span>
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                    {{ data.soldStr }}
+                </span>
             </div>
         </div>
         <div class="detail-business">
             <div class="shop-tip">
                 <span>商家信息</span>
-                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                <span>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </span>
             </div>
             <div class="shop-name-score-phone">
-                <div class="shop-name-score">
+                <div class="shop-name-score" v-if="data.shop">
                     <p class="shop-name">{{ data.shop.name }}</p>
                     <p class="shop-score">平均评分:{{ data.shop.avgscore }}</p>
                 </div>
-                <div class="shop-phone"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                <div class="shop-phone">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                </div>
             </div>
-            <p class="shop-address"><i class="fa fa-map-marker" aria-hidden="true"></i>{{ data.shop.addr }}</p>
+            <p class="shop-address" v-if="data.shop">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                {{ data.shop.addr }}
+            </p>
         </div>
         <div class="shop-compare-tip" v-html="buyData"></div>
         <ShoppingCart></ShoppingCart>
@@ -38,48 +53,53 @@
 </template>
 
 <script>
-import ShoppingCart from '@/components/ShoppingCart.vue'
+import ShoppingCart from "@/components/ShoppingCart";
 
 export default {
     name: "Detail",
-    components: {ShoppingCart},
+    components: { ShoppingCart },
     data() {
         return {
             list: [],
-            src: '/home/img/icons/11.jpg',
+            src: "/home/img/icons/11.jpg",
             data: {},
-            buyData: '',
-            hasBuy: false
-        }
+            buyData: "",
+            hasBuy: false,
+        };
     },
     watch: {},
     methods: {
         switchPurchaseStatus() {
             if (this.hasBuy) {
-                this.$store.commit('removeGoods', this.data);
+                this.$store.commit("removeGoods", this.data);
             } else {
-                this.$store.commit('addGoods', this.data);
+                this.$store.commit("addGoods", this.data);
             }
             this.hasBuy = !this.hasBuy;
         },
         getData() {
             let {params} = this.$route;
-            this.$http.get('/data/detailMessage', {params})
+            console.log(params);
+            this.$http
+                .get("/data/detailMessage", {params})
                 .then(({data}) => {
-                    if (this.$store.state.products.find(item => item.id === data.id)) {
+                    if (
+                        this.$store.state.products.find(
+                            (item) => item.id === data.id
+                        )
+                    ) {
                         this.hasBuy = false;
                     }
                     this.data = data;
                     this.buyData = data.structedDetails[0].name;
-                })
-        }
+                });
+        },
     },
     created() {
         document.body.style.backgroundColor = "#eeeeee";
         this.getData();
-
-    }
-}
+    },
+};
 </script>
 
 <style scoped lang="scss">
@@ -89,6 +109,7 @@ export default {
 }
 
 .detail-page {
+    margin-bottom: 60px;
     .shop-compare-tip {
         background-color: #fff;
         margin-top: 10px;
@@ -134,17 +155,17 @@ export default {
                     font-weight: bold;
                 }
 
-                .shop-name, .shop-score {
+                .shop-name,
+                .shop-score {
                     height: 40px;
                     line-height: 40px;
                 }
-
             }
 
             .shop-phone {
                 flex: 2;
                 font-size: 40px;
-                color: #00D3BE;
+                color: #00d3be;
                 text-align: center;
                 line-height: 80px;
             }
@@ -168,7 +189,7 @@ export default {
             line-height: 30px;
 
             span {
-                color: #7ccb2b;
+                color: #79e37d;
                 font-size: 12px;
                 flex: 1;
             }
@@ -196,7 +217,7 @@ export default {
 
             h1 {
                 padding-left: 10px;
-                color: #00D3BE;
+                color: #00d3be;
                 flex: 1;
 
                 span {
@@ -227,9 +248,6 @@ export default {
                 background-color: #aaa;
             }
         }
-
-
     }
 }
-
 </style>
