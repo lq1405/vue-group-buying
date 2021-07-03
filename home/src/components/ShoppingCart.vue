@@ -8,11 +8,12 @@
             <p class="pay-total-price">共￥{{ $store.state.totalPrice }}</p>
             <p class="discount-price">优惠{{ $store.state.discount }}</p>
         </div>
-        <router-link to="/buy" tag="div" :class="{
+        <div :class="{
         'num-null':true,
          'to-pay-it': hasNum
-        }">去结算
-        </router-link>
+        }"
+             @click="toPayPage">去结算
+        </div>
     </div>
 </template>
 
@@ -25,11 +26,20 @@ export default {
     },
     watch: {
         '$store.state.totalPrice'(n) {
-            n > 0 ? this.hasNum = true : this.hasNum = false
-        }
+            n > 0 ? this.hasNum = true : this.hasNum = false;
+        },
     },
     name: "shoppingCart",
-    methods: {}
+    methods: {
+        toPayPage() {
+            if (this.hasNum) {
+                location.hash = '#/buy'
+            }
+        }
+    },
+    created() {
+        this.$store.state.totalPrice > 0 ? this.hasNum = true : this.hasNum = false;
+    }
 }
 </script>
 

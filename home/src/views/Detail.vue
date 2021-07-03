@@ -57,7 +57,7 @@ import ShoppingCart from "@/components/ShoppingCart";
 
 export default {
     name: "Detail",
-    components: { ShoppingCart },
+    components: {ShoppingCart},
     data() {
         return {
             list: [],
@@ -70,16 +70,17 @@ export default {
     watch: {},
     methods: {
         switchPurchaseStatus() {
+            let index = this.$store.state.hasSelectId.indexOf(this.data.id);
             if (this.hasBuy) {
                 this.$store.commit("removeGoods", this.data);
-            } else {
+            } else if (index < 0) {
+
                 this.$store.commit("addGoods", this.data);
             }
             this.hasBuy = !this.hasBuy;
         },
         getData() {
             let {params} = this.$route;
-            console.log(params);
             this.$http
                 .get("/data/detailMessage", {params})
                 .then(({data}) => {
@@ -98,7 +99,12 @@ export default {
     created() {
         document.body.style.backgroundColor = "#eeeeee";
         this.getData();
+
     },
+    beforeUpdate() {
+        let index = this.$store.state.hasSelectId.indexOf(this.data.id);
+        index >= 0 ? this.hasBuy = true : this.hasBuy = false
+    }
 };
 </script>
 
@@ -110,6 +116,7 @@ export default {
 
 .detail-page {
     margin-bottom: 60px;
+
     .shop-compare-tip {
         background-color: #fff;
         margin-top: 10px;
