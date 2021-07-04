@@ -1,0 +1,29 @@
+.home-page[data-v-fae5bece] {
+  height: 100%;
+}
+.home-page .el-header[data-v-fae5bece] {
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.home-page .el-header .status[data-v-fae5bece] {
+  text-align: right;
+  line-height: 60px;
+  margin-right: 30px;
+}
+.home-page .el-header .status span[data-v-fae5bece] {
+  margin: 5px;
+}
+.home-page .el-header .status .user-quit[data-v-fae5bece] {
+  cursor: pointer;
+  color: #ee3434;
+}
+.home-page .el-aside[data-v-fae5bece] {
+  background-color: #545c64;
+  margin-right: 10px;
+}
+.home-page .el-aside .el-menu li[data-v-fae5bece] {
+  width: 200px;
+}
+.home-page .el-main[data-v-fae5bece] {
+  background-color: #fff;
+}

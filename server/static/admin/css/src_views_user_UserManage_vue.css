@@ -1,0 +1,20 @@
+*[data-v-0200acca] {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.el-form[data-v-0200acca] {
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.el-form .el-form-item[data-v-0200acca] {
+  margin-bottom: 23px;
+}
+.el-form .submit-btn[data-v-0200acca] {
+  width: 100px;
+  height: 30px;
+  position: relative;
+  left: 40%;
+  margin-top: 30px;
+}
