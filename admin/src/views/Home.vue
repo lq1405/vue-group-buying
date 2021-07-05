@@ -47,7 +47,7 @@ export default {
                     title: "商品模块",
                     children: [
                         { title: "创建商品", href: "/product/create" },
-                        { title: "商品列表", href: "/product/list" },
+                        { title: "商品列表", href: "/product/list/1" },
                     ],
                 },
                 {
@@ -61,7 +61,7 @@ export default {
                     title: "用户模块",
                     children: [
                         { title: "创建用户", href: "/user/create" },
-                        { title: "用户列表", href: "/user/list" },
+                        { title: "用户列表", href: "/user/list/1" },
                         { title: "账号管理", href: "/user/manage" },
                     ],
                 },
@@ -105,6 +105,29 @@ export default {
         .page-title {
             border-bottom: 1px dashed #ccc;
             padding-bottom: 10px;
+        }
+        .el-form {
+            margin-left: 100px;
+        }
+        .el-input,
+        .el-textarea,
+        .el-select {
+            width: 50%;
+        }
+        .el-select {
+            .el-input {
+                width: 100%;
+            }
+        }
+
+        .upload-img {
+            width: 300px;
+            height: 200px;
+            margin-top: 15px;
+        }
+        .upload-tip {
+            color: #999;
+            margin-left: 15px;
         }
     }
 }

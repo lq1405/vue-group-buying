@@ -34,7 +34,7 @@ export default {
         return {
             login: {
                 username: "admin",
-                password: "1111ddd",
+                password: "111111aa",
             },
             rules: {
                 username: { trigger: "blur", validator: username },

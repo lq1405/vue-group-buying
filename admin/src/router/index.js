@@ -15,12 +15,17 @@ export default new Router({
                     component: () => import('@v/product/CreateProduct')
                 },
                 {
-                    path: 'product/edit',
+                    path: 'product/edit/:id',
                     component: () => import('@v/product/EditProduct')
                 },
                 {
-                    path: 'product/list',
-                    component: () => import('@v/product/ProductList')
+                    path: 'product/list/:page',
+                    component: () => import('@v/product/ProductList'),
+                    props(route) {
+                        return {
+                            page: +route.params.page
+                        }
+                    }
                 },
                 {
                     path: 'home/ads',
@@ -35,11 +40,11 @@ export default new Router({
                     component: () => import('@v/user/CreateUser')
                 },
                 {
-                    path: 'user/edit',
+                    path: 'user/edit/:id',
                     component: () => import('@v/user/EditUser')
                 },
                 {
-                    path: 'user/list',
+                    path: 'user/list/:page',
                     component: () => import('@v/user/UserList')
                 },
                 {

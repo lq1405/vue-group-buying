@@ -26,9 +26,9 @@ export default new Vuex.Store({
                 .then(({
                     data
                 }) => {
-                    if (data.state === "success") {
+                    if (data.state === 1) {
                         store.commit("loginSuccessUsername", data);
-                    } else if (data.state === 'error') {
+                    } else if (data.state === 0) {
                         console.log(data);
                         Message.closeAll();
                         Message({
