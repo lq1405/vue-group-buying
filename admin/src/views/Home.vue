@@ -4,7 +4,7 @@
             <div class="status">
                 <span>你好</span>
                 <span class="username">{{$store.state.username}}</span>
-                <span class="user-quit">退出</span>
+                <a href="/admin/userLoginOut" class="user-quit">退出</a>
             </div>
         </el-header>
         <el-container>

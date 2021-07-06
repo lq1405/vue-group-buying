@@ -23,9 +23,9 @@ export default {
     data() {
         return {
             manage: {
-                username: "111a",
-                password: "111a",
-                conformPassword: "111a",
+                username: "",
+                password: "",
+                conformPassword: "",
             },
             rules: {
                 //trigger设置位blur是在失去焦点的时候校验
@@ -52,7 +52,7 @@ export default {
             this.$refs.manage.validate((valid) => {
                 if (valid) {
                     this.$http
-                        .post("/admin/manage/updatePassword", {
+                        .post("/admin/user/updatePassword", {
                             username,
                             password,
                         })

@@ -8,13 +8,23 @@ module.exports = {
         '/static/': '/static/',
         '/favicon.io': '/data/home/favicon.io',
         '/home': '/static/home/home',
+        '/cache': '/cache'
     },
     //数据库相关信息
     MONGO: {
         connectUrl: 'mongodb://localhost:27017',
         dataBaseName: 'groupBuying',
-        defaultCollection: 'user'
     },
+
+    //缓存目录
+    IMG_CACHE_DIR: '/cache/upload/',
+
+    //图片存储转到的目录
+    IMG_SAVE_DIR: '/static/data/img/upload/',
+
+    //图标保存目录
+    ICONS_SAVE_DIR: '/static/data/img/icons/',
+
 
     //定义错误
     ERROR: {
@@ -30,6 +40,18 @@ module.exports = {
         'changeNewsErr': '新闻修改失败!!!',
         'dataSelectErr': '数据查询失败!!!',
         'updateErr': '数据更新失败!!!',
-        'dataBaseError': '数据库错误!!!'
+        'dataBaseError': '数据库错误!!!',
+        'imgCacheError': {
+            errno: 1,
+            msg: '图片上传失败'
+        },
+        imgResaveError: {
+            errno: 2,
+            msg: '图片上传失败'
+        },
+        createProductError: {
+            errno: 3,
+            msg: "商品创建失败"
+        }
     }
 }

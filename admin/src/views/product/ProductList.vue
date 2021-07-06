@@ -4,11 +4,11 @@
 
         <div class="page-list">
             <el-card v-for="item in data" :key="item.id">
-                <img :src="'/static/home/home/img/lovelyFile/'+ item.img" alt />
-                <h3>{{item.content}}</h3>
-                <h4>售价￥{{item.discount}}</h4>
-                <span class="type-span">111</span>
-                <p>原价￥{{item.normalPrice}}</p>
+                <img :src="item.img" alt />
+                <h3>{{item.brandName}}</h3>
+                <h4>售价￥{{item.price}}</h4>
+                <span class="type-span">{{item.types}}</span>
+                <p>原价￥{{item.originalPrice}}</p>
                 <p>已销售{{item.sold}}</p>
                 <el-button type="success" @click="toEditPage(item.id)">修改</el-button>
                 <el-button type="danger" @click="goodsDelete(item.content,item.id)">删除</el-button>
@@ -37,11 +37,11 @@ export default {
     methods: {
         getData() {
             let { params } = this.$route;
-            console.log(params);
             this.$http
                 .get("/admin/product/list", { params })
                 .then(({ data }) => {
-                    this.data = data.goods;
+                    console.log(data);
+                    this.data = data;
                 });
         },
         toEditPage(id) {
@@ -103,10 +103,11 @@ export default {
         .el-card {
             position: relative;
             padding: 0;
-            width: 21%;
+            width: 16.66%;
             margin: 20px;
             img {
                 width: 100%;
+                // height: 200px;
             }
             h3 {
                 font-weight: normal;

@@ -19,30 +19,32 @@ class DataBase {
     //连接到数据库
     connect() {
         return new Promise((resolve, reject) => {
+            if (this.db) {
+                return resolve(this.db)
+            }
             mongo.MongoClient.connect(this.address, {
                 useUnifiedTopology: true
             }, (err, client) => {
                 if (err) {
                     reject(ERROR.dataBaseError);
                 } else {
-                    resolve({
-                        db: client.db(this.dataBaseName).collection(this.collectionName),
-                        client
+                    this.db = client.db(this.dataBaseName);
+                    //监听程序的退出
+                    process.on('exit', () => {
+                        client.close();
                     })
+                    resolve(this.db);
                 }
             })
         })
     }
-
+    //查找数据
     findOne(obj) {
         return new Promise((resolve, reject) => {
             //连接数据库
             this.connect()
-                .then(({
-                    db,
-                    client
-                }) => {
-                    db.find(obj).toArray((err, data) => {
+                .then(db => {
+                    db.collection(this.collectionName).find(obj).toArray((err, data) => {
                         if (err) {
                             reject(ERROR.dataBaseError);
                         } else if (data.length) {
@@ -52,7 +54,51 @@ class DataBase {
                         }
                     })
                 })
+                .catch(data => {
+                    reject(data);
+                })
         })
     }
+
+    //更新一条数据
+    updateOne(conditionObj, updateObj) {
+        return new Promise((resolve, reject) => {
+            this.connect()
+                .then(db => {
+                    db.collection(this.collectionName).updateOne(conditionObj, {
+                        $set: updateObj
+                    }, (err, data) => {
+                        if (err) {
+                            reject(ERROR.dataBaseError);
+                        } else {
+                            resolve('账号密码修改成功');
+                        }
+                    })
+                })
+                .catch(data => {
+                    reject(data);
+                })
+        })
+    }
+    //插入一条数据
+    insertOne(insertObj) {
+        return new Promise((resolve, reject) => {
+            this.connect()
+                .then(db => {
+                    db.collection(this.collectionName).insertOne(insertObj, (err, data) => {
+                        if (err) {
+                            reject(ERROR.dataBaseError)
+                        } else {
+                            resolve('创建商品成功');
+                        }
+                    })
+                })
+                .catch(data => {
+                    reject(data);
+                })
+        })
+    }
+
 }
+
 module.exports = DataBase;

@@ -121,7 +121,7 @@ export default {
     },
     methods: {
         uploadSuccess(data) {
-            if (data.state === 1) {
+            if (data.errno === 0) {
                 this.$set(this.data, "img", data.img);
             } else {
                 this.$message.closeAll();

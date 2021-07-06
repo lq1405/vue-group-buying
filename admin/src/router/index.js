@@ -52,7 +52,7 @@ export default new Router({
                     component: () => import('@v/user/UserManage')
                 }, {
                     path: "*",
-                    component: () => import("@v/product/ProductList")
+                    component: () => import("@v/user/UserManage")
                 }
             ]
         },

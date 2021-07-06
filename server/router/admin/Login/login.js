@@ -5,11 +5,20 @@ let {
 } = require('../../tools')
 
 module.exports = (req, res) => {
-
-    db.findOne(req.body).then((data) => {
-        console.log(data);
+    db.collection('user').findOne(req.body).then((data) => {
+        //找到数据了
+        //在session中记录登陆的信息
+        req.session.username = data[0].username;
+        //返回结果
+        res.json({
+            state: 1,
+            username: data[0].username
+        })
     }).catch((data) => {
-        console.log(data)
+        res.json({
+            state: 0,
+            msg: data
+        })
     })
 
 }

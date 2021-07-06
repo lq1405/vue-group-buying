@@ -14,12 +14,12 @@ module.exports = app => {
         next();
     }, express.static(path.join(ROOT, '/static/data')));
 
-    app.post('/admin/login', (req, res) => {
-        res.json({
-            username: 'll11111ll',
-            state: 'success'
-        })
-    })
+    // app.post('/admin/login', (req, res) => {
+    //     res.json({
+    //         username: 'll11111ll',
+    //         state: 'success'
+    //     })
+    // })
     // app.post('/admin/login', (req, res) => {
     //     res.json({
     //         username: 'llll',
@@ -42,28 +42,28 @@ module.exports = app => {
     //         state: 1
     //     })
     // })
-    app.post('/admin/manage/updatePassword', (req, res) => {
-        res.json({
-            username: 'lq',
-            state: 0,
-            msg: '更新失败'
-        })
-    })
+    // app.post('/admin/manage/updatePassword', (req, res) => {
+    //     res.json({
+    //         username: 'lq',
+    //         state: 0,
+    //         msg: '更新失败'
+    //     })
+    // })
 
-    app.post('/admin/product/upload', (req, res) => {
-        res.json({
-            state: 1,
-            img: '/static/home/home/img/lovelyFile/00.jpg',
-            msg: "success"
-        })
-    })
+    // app.post('/admin/product/upload', (req, res) => {
+    //     res.json({
+    //         state: 1,
+    //         img: '/static/home/home/img/lovelyFile/00.jpg',
+    //         msg: "success"
+    //     })
+    // })
 
-    app.post('/admin/product/create', (req, res) => {
-        res.json({
-            state: 1,
-            msg: 'success'
-        })
-    })
+    // app.post('/admin/product/create', (req, res) => {
+    //     res.json({
+    //         state: 1,
+    //         msg: 'success'
+    //     })
+    // })
 
     app.use('/admin/product/list', (req, res, next) => {
         next();

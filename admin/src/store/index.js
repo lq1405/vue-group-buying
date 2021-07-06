@@ -15,9 +15,7 @@ export default new Vuex.Store({
     //同步消息
     mutations: {
         loginSuccessUsername(state, data) {
-            console.log(data);
             state.username = data.username;
-            console.log(state.username)
         }
     },
     actions: {
@@ -29,7 +27,6 @@ export default new Vuex.Store({
                     if (data.state === 1) {
                         store.commit("loginSuccessUsername", data);
                     } else if (data.state === 0) {
-                        console.log(data);
                         Message.closeAll();
                         Message({
                             showClose: true,
