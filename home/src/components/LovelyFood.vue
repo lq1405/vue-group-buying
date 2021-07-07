@@ -4,15 +4,15 @@
             <li v-for="item in list" :key="item.id">
                 <router-link :to="'/detail/' + item.id" tag="a">
                     <div class="food-list-img">
-                        <img src="/home/img/lovelyFile/00.jpg" alt />
+                        <img :src="item.img" alt />
                     </div>
                     <div class="food-list-describe">
-                        <p class="food-name" v-if="msg.name">{{ item[msg.name] }}</p>
-                        <p class="food-content" v-if="msg.content">{{ item[msg.content] }}</p>
-                        <span class="food-discount" v-if="msg.discount">{{ item[msg.discount] }}元</span>
-                        <span v-if="msg.normalPrice">门市价:{{ item[msg.normalPrice] }}</span>
-                        <span v-if="msg.sold" class="sold-food">已售{{ item[msg.sold] }}</span>
-                        <span v-if="msg.distance" class="sold-food">距离{{item[msg.distance]}}</span>
+                        <p class="food-name" >{{ item.brandName }}</p>
+                        <p class="food-content">{{ item.title }}</p>
+                        <span class="food-discount" >{{ item.price }}元</span>
+                        <span> 门市价:{{ item.originalPrice }}</span>
+                        <span class="sold-food">已售{{ item.sold }}</span>
+                        <!-- <span v-if="msg.distance" class="sold-food">距离{{0}}</span> -->
                     </div>
                 </router-link>
             </li>
@@ -23,7 +23,7 @@
 
 <script>
 export default {
-    props: ["list", "msg", "noShow"],
+    props: ["list"],
 };
 </script>
 <style scoped lang="scss">

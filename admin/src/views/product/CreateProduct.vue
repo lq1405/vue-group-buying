@@ -138,8 +138,9 @@ export default {
                     this.$http
                         .post(this.submitUrl, this.dealData)
                         .then(({ data }) => {
-                            if (data.state === 1) {
-                                this.$message.success("创建成功");
+                            console.log(data);
+                            if (data.errno === 0) {
+                                this.$message.success(data.msg);
                                 setTimeout(() => {
                                     this.$router.replace("/product/list/1");
                                 }, 1000);

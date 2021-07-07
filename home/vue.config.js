@@ -11,22 +11,28 @@ if (process.env.NODE_ENV === 'production') {
         configureWebpack: {
             devServer: {
                 proxy: {
-                    '/data/lovely': {
+                    '/home/lovely': {
                         target: 'http://localhost:3000/',
                         pathRewrite: {
-                            '^/data/lovely': '/data/lovely'
+                            '^/home/lovely': '/home/lovely'
                         }
                     },
-                    'data/fineFood': {
+                    '/home/fineFood': {
                         target: 'http://localhost:3000/',
                         pathRewrite: {
-                            '^/data/fineFood': '/data/fineFood'
+                            '^/home/fineFood': '/home/fineFood'
                         }
                     },
-                    'data/detailMessage': {
+                    '/home/detailMessage': {
                         target: 'http://localhost:3000/',
                         pathRewrite: {
-                            '^/data/detailMessage': 'data/detailMessage'
+                            '^/home/detailMessage': '/home/detailMessage'
+                        }
+                    },
+                    '/static': {
+                        target: 'http://localhost:3000/',
+                        pathRewrite: {
+                            '^/static': '/static'
                         }
                     },
                 }

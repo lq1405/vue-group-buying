@@ -95,7 +95,7 @@ export default {
         width: 100px;
         height: 30px;
         position: relative;
-        left: 40%;
+        left: 20%;
         margin-top: 30px;
     }
 }

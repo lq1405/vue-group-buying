@@ -1,11 +1,11 @@
 let page = require('./page');
 let admin = require('./admin');
-// let home = require('./home');
+let home = require('./home');
 
 module.exports = app => {
     app.use(page);
     app.use(admin);
-    // app.use(home);
+    app.use(home);
 }
 
 // module.exports = app => {

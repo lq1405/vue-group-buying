@@ -1,8 +1,8 @@
 <template>
     <div class="detail-page">
         <div class="img-price-detail">
-            <img :src="src" alt/>
-            <p class="detail-brandName">{{ data.brandName }}</p>
+            <img :src="data.img" alt />
+            <p class="detail-brandName">{{ data.title }}</p>
             <div class="detail-price-buy">
                 <h1>
                     <span>￥</span>
@@ -22,7 +22,8 @@
                 <span>支持过期自动退</span>
                 <span>
                     <i class="fa fa-user-circle" aria-hidden="true"></i>
-                    {{ data.soldStr }}
+                    已销售
+                    {{ data.sold }}
                 </span>
             </div>
         </div>
@@ -34,9 +35,9 @@
                 </span>
             </div>
             <div class="shop-name-score-phone">
-                <div class="shop-name-score" v-if="data.shop">
-                    <p class="shop-name">{{ data.shop.name }}</p>
-                    <p class="shop-score">平均评分:{{ data.shop.avgscore }}</p>
+                <div class="shop-name-score">
+                    <p class="shop-name">{{ data.brandName }}</p>
+                    <p class="shop-score">平均评分:{{ data.averageScore }}</p>
                 </div>
                 <div class="shop-phone">
                     <i class="fa fa-phone" aria-hidden="true"></i>
@@ -44,7 +45,7 @@
             </div>
             <p class="shop-address" v-if="data.shop">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                {{ data.shop.addr }}
+                {{ }}
             </p>
         </div>
         <div class="shop-compare-tip" v-html="buyData"></div>
@@ -52,16 +53,15 @@
     </div>
 </template>
 
+
 <script>
 import ShoppingCart from "@/components/ShoppingCart";
-
 export default {
     name: "Detail",
-    components: {ShoppingCart},
+    components: { ShoppingCart },
     data() {
         return {
             list: [],
-            src: "/home/img/icons/11.jpg",
             data: {},
             buyData: "",
             hasBuy: false,
@@ -74,16 +74,16 @@ export default {
             if (this.hasBuy) {
                 this.$store.commit("removeGoods", this.data);
             } else if (index < 0) {
-
                 this.$store.commit("addGoods", this.data);
             }
             this.hasBuy = !this.hasBuy;
         },
         getData() {
-            let {params} = this.$route;
+            let { params } = this.$route;
             this.$http
-                .get("/data/detailMessage", {params})
-                .then(({data}) => {
+                .get("/home/detailMessage", { params })
+                .then(({ data }) => {
+                    console.log(data);
                     if (
                         this.$store.state.products.find(
                             (item) => item.id === data.id
@@ -92,19 +92,18 @@ export default {
                         this.hasBuy = false;
                     }
                     this.data = data;
-                    this.buyData = data.structedDetails[0].name;
+                    this.buyData = data.content;
                 });
         },
     },
     created() {
         document.body.style.backgroundColor = "#eeeeee";
         this.getData();
-
     },
     beforeUpdate() {
         let index = this.$store.state.hasSelectId.indexOf(this.data.id);
-        index >= 0 ? this.hasBuy = true : this.hasBuy = false
-    }
+        index >= 0 ? (this.hasBuy = true) : (this.hasBuy = false);
+    },
 };
 </script>
 
@@ -160,6 +159,8 @@ export default {
 
                 .shop-name {
                     font-weight: bold;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
                 }
 
                 .shop-name,
@@ -208,6 +209,7 @@ export default {
 
         img {
             width: 100%;
+            height: 268px;
         }
 
         .detail-brandName {
@@ -225,7 +227,7 @@ export default {
             h1 {
                 padding-left: 10px;
                 color: #00d3be;
-                flex: 1;
+                flex: 2;
 
                 span {
                     font-weight: normal;
@@ -234,7 +236,7 @@ export default {
             }
 
             .detail-originalPrice {
-                flex: 3;
+                flex: 2;
                 font-size: 11px;
                 padding-top: 18px;
             }

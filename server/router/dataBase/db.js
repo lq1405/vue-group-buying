@@ -1,7 +1,10 @@
 let mongo = require('mongodb');
 let {
-    ERROR
+    ERROR,
 } = require('../../conf');
+let {
+    MESSAGE
+} = require('../../conf/MESSAGE')
 
 class DataBase {
     //构造函数
@@ -26,7 +29,7 @@ class DataBase {
                 useUnifiedTopology: true
             }, (err, client) => {
                 if (err) {
-                    reject(ERROR.dataBaseError);
+                    reject(MESSAGE.dataBaseError);
                 } else {
                     this.db = client.db(this.dataBaseName);
                     //监听程序的退出
@@ -46,11 +49,11 @@ class DataBase {
                 .then(db => {
                     db.collection(this.collectionName).find(obj).toArray((err, data) => {
                         if (err) {
-                            reject(ERROR.dataBaseError);
+                            reject(MESSAGE.dataBaseError);
                         } else if (data.length) {
                             resolve(data);
                         } else {
-                            reject(ERROR.userOrPasswordErr);
+                            reject(MESSAGE.userOrPasswordError);
                         }
                     })
                 })
@@ -69,9 +72,9 @@ class DataBase {
                         $set: updateObj
                     }, (err, data) => {
                         if (err) {
-                            reject(ERROR.dataBaseError);
+                            reject(MESSAGE.dataBaseError);
                         } else {
-                            resolve('账号密码修改成功');
+                            resolve(MESSAGE.dataUpdateSuccess);
                         }
                     })
                 })
@@ -80,6 +83,30 @@ class DataBase {
                 })
         })
     }
+
+    //更新多条数据
+    updateMany(conditionObj, updateObj) {
+        return new Promise((resolve, reject) => {
+            this.connect()
+                .then(db => {
+                    db.collection(this.collectionName).updateMany(conditionObj, {
+                        $set: updateObj
+                    }, (err, date) => {
+                        if (err) {
+                            console.log(err);
+                            reject(MESSAGE.dataBaseError)
+                        } else {
+                            resolve(MESSAGE.dataUpdateSuccess);
+                        }
+                    })
+                })
+                .catch(data => {
+                    reject(data);
+                })
+        })
+    }
+
+
     //插入一条数据
     insertOne(insertObj) {
         return new Promise((resolve, reject) => {
@@ -89,12 +116,31 @@ class DataBase {
                         if (err) {
                             reject(ERROR.dataBaseError)
                         } else {
-                            resolve('创建商品成功');
+                            resolve(MESSAGE.dataInsertSuccess);
                         }
                     })
                 })
                 .catch(data => {
                     reject(data);
+                })
+        })
+    }
+
+    //删除一条数据
+    deleteOne(conditionObj) {
+        return new Promise((resolve, reject) => {
+            this.connect()
+                .then(db => {
+                    db.collection(this.collectionName).deleteOne(conditionObj, (err, data) => {
+                        if (err) {
+                            reject(MESSAGE.dataBaseError);
+                        } else {
+                            resolve(MESSAGE.dataDeleteSuccess);
+                        }
+                    })
+                })
+                .catch(data => {
+                    reject(data)
                 })
         })
     }

@@ -17,3 +17,9 @@ module.exports = new Router()
     .post('/admin/product/create', require('./Product/createProduct'))
     //获取商品列表的接口
     .get('/admin/product/list', require('./Product/productList'))
+    //修改商品时获取的详情的接口
+    .get('/admin/product/detail', require('./Product/detailProduct'))
+    //修改商品后提交新的信息的接口
+    .post('/admin/product/edit', require('./Product/editProduct'))
+    //删除商品的接口
+    .post('/admin/product/delete', require('./Product/deleteProduct'))

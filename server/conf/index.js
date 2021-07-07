@@ -53,5 +53,5 @@ module.exports = {
             errno: 3,
             msg: "商品创建失败"
         }
-    }
+    },
 }

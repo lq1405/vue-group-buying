@@ -11,7 +11,7 @@
                 <p>原价￥{{item.originalPrice}}</p>
                 <p>已销售{{item.sold}}</p>
                 <el-button type="success" @click="toEditPage(item.id)">修改</el-button>
-                <el-button type="danger" @click="goodsDelete(item.content,item.id)">删除</el-button>
+                <el-button type="danger" @click="goodsDelete(item.title,item.id)">删除</el-button>
             </el-card>
         </div>
 
@@ -40,7 +40,6 @@ export default {
             this.$http
                 .get("/admin/product/list", { params })
                 .then(({ data }) => {
-                    console.log(data);
                     this.data = data;
                 });
         },
@@ -55,17 +54,18 @@ export default {
                 type: "warning",
             })
                 .then(() => {
+                    console.log("11111");
                     this.$http
                         .post("/admin/product/delete", { id })
                         .then(({ data }) => {
-                            if (data.state === 1) {
-                                this.$message.success("删除成功");
+                            if (data.errno === 0) {
+                                this.$message.success(data.msg);
                                 setTimeout(() => {
                                     this.$router.go(0);
                                 }, 1000);
                             } else {
                                 this.$message.closeAll();
-                                this.$message.error(data.msg);
+                                this.$message.error("删除失败");
                             }
                         });
                 })
@@ -107,7 +107,7 @@ export default {
             margin: 20px;
             img {
                 width: 100%;
-                // height: 200px;
+                height: 160px;
             }
             h3 {
                 font-weight: normal;

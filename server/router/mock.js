@@ -65,15 +65,15 @@ module.exports = app => {
     //     })
     // })
 
-    app.use('/admin/product/list', (req, res, next) => {
-        next();
-    }, express.static(path.join(ROOT, '/static/data/lovely.json')));
+    // app.use('/admin/product/list', (req, res, next) => {
+    //     next();
+    // }, express.static(path.join(ROOT, '/static/data/lovely.json')));
 
 
-    app.use('/admin/product/detail', (req, res, next) => {
-        console.log(req.query);
-        next();
-    }, express.static(path.join(ROOT, '/static/data/edit.json')));
+    // app.use('/admin/product/detail', (req, res, next) => {
+    //     console.log(req.query);
+    //     next();
+    // }, express.static(path.join(ROOT, '/static/data/edit.json')));
 
 
     app.post('/admin/product/delete', (req, res) => {

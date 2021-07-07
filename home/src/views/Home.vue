@@ -2,14 +2,14 @@
     <div class="home-page">
         <ul class="type-list">
             <li v-for="item in type" :key="item.id">
-                <router-link :to='"/list/" + item.id' tag="a">
-                    <img :src="'/home/img/icons/'+ item.img" alt="">
+                <router-link :to="'/list/' + item.id" tag="a">
+                    <img :src="'/home/img/icons/'+ item.img" alt />
                     <p>{{ item.text }}</p>
                 </router-link>
             </li>
         </ul>
         <p class="lovely">猜你喜欢</p>
-        <LovelyFood :list="list" :msg="msg"></LovelyFood>
+        <LovelyFood :list="list"></LovelyFood>
     </div>
 </template>
 <style scoped lang="scss">
@@ -57,9 +57,7 @@
             }
         }
     }
-
 }
-
 </style>
 
 <script>
@@ -67,47 +65,44 @@ import LovelyFood from "../components/LovelyFood";
 
 export default {
     name: "Home",
-    components: {LovelyFood},
+    components: { LovelyFood },
     data() {
         return {
             type: [
-                {id: 1, text: '美食', img: '01.png'},
-                {id: 2, text: '电影', img: '02.png'},
-                {id: 3, text: '酒店', img: '03.png'},
-                {id: 4, text: '休闲', img: '04.png'},
-                {id: 5, text: '外卖', img: '05.png'},
-                {id: 6, text: 'KTV', img: '06.png'},
-                {id: 7, text: '丽人', img: '07.png'},
-                {id: 8, text: '小吃', img: '08.png'},
-                {id: 9, text: '周边游', img: '09.png'},
-                {id: 10, text: '火车票', img: '10.png'}
+                { id: 1, text: "美食", img: "01.png" },
+                { id: 2, text: "电影", img: "02.png" },
+                { id: 3, text: "酒店", img: "03.png" },
+                { id: 4, text: "休闲", img: "04.png" },
+                { id: 5, text: "外卖", img: "05.png" },
+                { id: 6, text: "KTV", img: "06.png" },
+                { id: 7, text: "丽人", img: "07.png" },
+                { id: 8, text: "小吃", img: "08.png" },
+                { id: 9, text: "周边游", img: "09.png" },
+                { id: 10, text: "火车票", img: "10.png" },
             ],
             list: [],
-            msg: {
-                name: "name",
-                content: "content",
-                discount: "discount",
-                sold: "sold",
-                normalPrice: "normalPrice",
-            }
-        }
+        };
     },
     created() {
-
-        this.$http.get('/data/lovely')
-            .then(data => {
-                this.list = data.data.goods;
-            }).catch(data => {
-            console.log(data)
-        })
-
+        this.$http
+            .get("/home/lovely")
+            .then(({ data }) => {
+                // console.log(data);
+                this.list = data;
+                console.log(this.list);
+            })
+            .catch((data) => {
+                console.log(data);
+            });
     },
     beforeCreate() {
-        document.querySelector('body').setAttribute('style', 'background-color:#F0EFED')
+        document
+            .querySelector("body")
+            .setAttribute("style", "background-color:#F0EFED");
     },
     beforeDestroy() {
-        document.body.removeAttribute('style')
-    }
-}
+        document.body.removeAttribute("style");
+    },
+};
 </script>
 
