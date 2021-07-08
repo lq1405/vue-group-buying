@@ -1,18 +1,18 @@
-let express = require('express');
-let path = require('path');
+// let express = require('express');
+// let path = require('path');
 
-let {
-    ROOT
-} = require('../conf')
+// let {
+//     ROOT
+// } = require('../conf')
 
-module.exports = app => {
-    app.use('/data/', (req, res, next) => {
-        let arr = req.url.split('?');
-        arr[0] += '.json';
-        req.url = arr.join('?');
-        console.log(req.url);
-        next();
-    }, express.static(path.join(ROOT, '/static/data')));
+// module.exports = app => {
+//     app.use('/data/', (req, res, next) => {
+//         let arr = req.url.split('?');
+//         arr[0] += '.json';
+//         req.url = arr.join('?');
+//         console.log(req.url);
+//         next();
+//     }, express.static(path.join(ROOT, '/static/data')));
 
     // app.post('/admin/login', (req, res) => {
     //     res.json({
@@ -28,13 +28,13 @@ module.exports = app => {
     //     })
     // })
 
-    app.get('/admin/userLoginInfo', (req, res) => {
-        res.json({
-            username: 'lq',
-            //是否登陆过
-            state: 1
-        })
-    })
+    // app.get('/admin/userLoginInfo', (req, res) => {
+    //     res.json({
+    //         username: 'lq',
+    //         //是否登陆过
+    //         state: 1
+    //     })
+    // })
 
     // app.post('/admin/manage/updatePassword', (req, res) => {
     //     res.json({
@@ -76,10 +76,10 @@ module.exports = app => {
     // }, express.static(path.join(ROOT, '/static/data/edit.json')));
 
 
-    app.post('/admin/product/delete', (req, res) => {
-        res.json({
-            state: 1,
-            msg: "success"
-        })
-    })
-}
+//     app.post('/admin/product/delete', (req, res) => {
+//         res.json({
+//             state: 1,
+//             msg: "success"
+//         })
+//     })
+// }

@@ -72,6 +72,10 @@ export default {
 </script>
 
 <style lang="scss">
+* {
+    margin: 0;
+    padding: 0;
+}
 .home-page {
     height: 100%;
     .el-header {
@@ -107,7 +111,10 @@ export default {
             padding-bottom: 10px;
         }
         .el-form {
-            margin-left: 100px;
+            margin: {
+                left: 100px;
+                top: 20px;
+            }
         }
         .el-input,
         .el-textarea,

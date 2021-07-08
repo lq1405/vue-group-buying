@@ -1,3 +1,6 @@
+let {
+    MESSAGE
+} = require('./MESSAGE')
 module.exports = {
     //http的端口号
     HTTP_PORT: 3000,
@@ -54,4 +57,5 @@ module.exports = {
             msg: "商品创建失败"
         }
     },
+    MESSAGE,
 }

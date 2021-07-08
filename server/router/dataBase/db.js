@@ -52,8 +52,10 @@ class DataBase {
                             reject(MESSAGE.dataBaseError);
                         } else if (data.length) {
                             resolve(data);
+                        } else if (data.length === 0) {
+                            reject(MESSAGE.dataIsNull)
                         } else {
-                            reject(MESSAGE.userOrPasswordError);
+                            reject(MESSAGE.dataFindError);
                         }
                     })
                 })

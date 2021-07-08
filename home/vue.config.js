@@ -17,10 +17,16 @@ if (process.env.NODE_ENV === 'production') {
                             '^/home/lovely': '/home/lovely'
                         }
                     },
-                    '/home/fineFood': {
+                    '/home/icons': {
                         target: 'http://localhost:3000/',
                         pathRewrite: {
-                            '^/home/fineFood': '/home/fineFood'
+                            '^/home/icons': '/home/icons'
+                        }
+                    },
+                    '/home/getFoodList': {
+                        target: 'http://localhost:3000/',
+                        pathRewrite: {
+                            '^/home/getFoodList': '/home/getFoodList'
                         }
                     },
                     '/home/detailMessage': {

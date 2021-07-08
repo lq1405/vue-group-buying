@@ -36,6 +36,10 @@ export default new Router({
                     component: () => import('@v/home/MenuTypes')
                 },
                 {
+                    path: 'home/types/create',
+                    component: () => import('@v/home/CreateMenu')
+                },
+                {
                     path: 'user/create',
                     component: () => import('@v/user/CreateUser')
                 },

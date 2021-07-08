@@ -1,13 +1,13 @@
 let {
     db
 } = require('../../tools')
+
 module.exports = (req, res) => {
-    console.log(req.query)
-    db.collection('product').findOne(req.query)
+    db.collection('homeIcons').findOne({})
         .then(data => {
-            res.json(data[0])
+            res.json(data)
         })
         .catch(data => {
-            console.log(data)
+            res.json(data);
         })
 }

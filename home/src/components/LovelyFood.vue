@@ -23,7 +23,7 @@
 
 <script>
 export default {
-    props: ["list"],
+    props: ["list", "noShow"],
 };
 </script>
 <style scoped lang="scss">

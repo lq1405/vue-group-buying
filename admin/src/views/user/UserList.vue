@@ -1,5 +1,5 @@
 <template>
     <div class="user-list-page">
-        <h1>user-list-page</h1>
+        <h1 class="page-title">用户列表</h1>
     </div>
 </template>

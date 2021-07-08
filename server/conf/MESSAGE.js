@@ -65,5 +65,13 @@ module.exports = {
             errno: 13,
             msg: '数据更新失败'
         },
+        dataFindError: {
+            errno: 14,
+            msg: '数据查询失败'
+        },
+        dataIsNull: {
+            errno: 15,
+            msg: '没有数据'
+        }
     }
 }

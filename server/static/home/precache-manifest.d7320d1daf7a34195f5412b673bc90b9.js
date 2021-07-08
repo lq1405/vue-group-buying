@@ -1,11 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8734280877022126a16c",
-    "url": "/static/home/css/app.4d9d59b2.css"
-  },
-  {
-    "revision": "556754f9590c5de53014",
-    "url": "/static/home/css/chunk-5140a1c8.fd1d4404.css"
+    "revision": "8b5605b383397ec02ccf",
+    "url": "/static/home/css/app.80b23cfd.css"
   },
   {
     "revision": "706c12f1c13f3fe48ee5",
@@ -18,6 +14,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "230adf84d2a5bd90639e",
     "url": "/static/home/css/chunk-cb0ec4ce.141daa05.css"
+  },
+  {
+    "revision": "29664f83a871ed5b6117",
+    "url": "/static/home/css/chunk-f800e242.1c7c7acb.css"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -36,24 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/home/fonts/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "4ebb51e3333d6e4ed9173da998d85579",
-    "url": "/static/home/home/img/lovelyFile/00.jpg"
-  },
-  {
     "revision": "912ec66d7572ff821749319396470bde",
     "url": "/static/home/img/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "fa177f4eef0e81ae8046ea0d23621b74",
+    "revision": "23dd93fd40c5974c7d3a862e603f8f24",
     "url": "/static/home/index.html"
   },
   {
-    "revision": "8734280877022126a16c",
-    "url": "/static/home/js/app.7ed7eb03.js"
-  },
-  {
-    "revision": "556754f9590c5de53014",
-    "url": "/static/home/js/chunk-5140a1c8.ddb41181.js"
+    "revision": "8b5605b383397ec02ccf",
+    "url": "/static/home/js/app.691e69ec.js"
   },
   {
     "revision": "706c12f1c13f3fe48ee5",
@@ -66,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "230adf84d2a5bd90639e",
     "url": "/static/home/js/chunk-cb0ec4ce.aa685ea8.js"
+  },
+  {
+    "revision": "29664f83a871ed5b6117",
+    "url": "/static/home/js/chunk-f800e242.71ee0a68.js"
   },
   {
     "revision": "1c4e85a251eace71750a",

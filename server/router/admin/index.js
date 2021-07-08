@@ -23,3 +23,7 @@ module.exports = new Router()
     .post('/admin/product/edit', require('./Product/editProduct'))
     //删除商品的接口
     .post('/admin/product/delete', require('./Product/deleteProduct'))
+    //创建分类的标签的接口
+    .post('/home/icons/create', require('./Icons/createIcons'))
+    //后台管理图标时进入列表的接口
+    .get("/home/icons/list", require('./Icons/getIconsList'))

@@ -3,8 +3,8 @@
         <ul class="type-list">
             <li v-for="item in type" :key="item.id">
                 <router-link :to="'/list/' + item.id" tag="a">
-                    <img :src="'/home/img/icons/'+ item.img" alt />
-                    <p>{{ item.text }}</p>
+                    <img :src="item.img" alt />
+                    <p>{{ item.name }}</p>
                 </router-link>
             </li>
         </ul>
@@ -68,18 +68,7 @@ export default {
     components: { LovelyFood },
     data() {
         return {
-            type: [
-                { id: 1, text: "美食", img: "01.png" },
-                { id: 2, text: "电影", img: "02.png" },
-                { id: 3, text: "酒店", img: "03.png" },
-                { id: 4, text: "休闲", img: "04.png" },
-                { id: 5, text: "外卖", img: "05.png" },
-                { id: 6, text: "KTV", img: "06.png" },
-                { id: 7, text: "丽人", img: "07.png" },
-                { id: 8, text: "小吃", img: "08.png" },
-                { id: 9, text: "周边游", img: "09.png" },
-                { id: 10, text: "火车票", img: "10.png" },
-            ],
+            type: [],
             list: [],
         };
     },
@@ -89,7 +78,14 @@ export default {
             .then(({ data }) => {
                 // console.log(data);
                 this.list = data;
-                console.log(this.list);
+            })
+            .catch((data) => {
+                console.log(data);
+            });
+        this.$http
+            .get("/home/icons")
+            .then(({ data }) => {
+                this.type = data;
             })
             .catch((data) => {
                 console.log(data);
